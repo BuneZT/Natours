@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for fake tourist company (Work in progress)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuneZT/Natours.git"
+  },
+  "author": "BuneZT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BuneZT/Natours/issues"
+  },
+  "homepage": "https://github.com/BuneZT/Natours#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
