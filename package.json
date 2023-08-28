@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "node-sass sass/main.scss style.css && replace-in-files --string='url(/' --replacement='url(./' style.css"
+    "compile:sass": "node-sass sass/main.scss style.css --output-style compressed && replace-in-files --string='url(/' --replacement='url(./' style.css"
   },
   "repository": {
     "type": "git",
