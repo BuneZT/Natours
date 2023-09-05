@@ -46,14 +46,14 @@
 
   &:hover {
     background-color: $color-primary;
-    color: #fff;
-    box-shadow: 0 1rem 2rem rgba(black, .15);
+    color: white;
+    box-shadow: 0 1rem 2rem $shadow;
     transform: translateY(-2px);
 
   }
 
   &:active {
-    box-shadow: 0 .5rem 1rem rgba(black, .15);
+    box-shadow: 0 .5rem 1rem $shadow;
     transform: translateY(0);
 
   }
