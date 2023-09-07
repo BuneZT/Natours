@@ -30,6 +30,11 @@
     color: $color-grey-dark;
   }
 
+  &--green {
+    background-color: $color-primary;
+    color: white;
+  }
+
 }
 
 .btn-text {
