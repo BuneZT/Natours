@@ -14,7 +14,7 @@
   }
 
   &:hover {
-    transform: translateY(-0.3rem);
+    translate: 0 -.3rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
   }
 
@@ -53,13 +53,13 @@
     background-color: $color-primary;
     color: white;
     box-shadow: 0 1rem 2rem $shadow;
-    transform: translateY(-2px);
+    translate: 0 -2px;
 
   }
 
   &:active {
     box-shadow: 0 .5rem 1rem $shadow;
-    transform: translateY(0);
+    translate: 0 0;
 
   }
 }
