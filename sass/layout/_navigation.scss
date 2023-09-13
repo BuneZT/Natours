@@ -9,6 +9,7 @@
 
   &__button {
     background-color: white;
+    cursor: pointer;
     height: 7rem;
     width: 7rem;
     position: fixed;
@@ -17,6 +18,11 @@
     border-radius: 50%;
     z-index: 1002;
     box-shadow: 0 1rem 3rem $shadow;
+  }
+
+  &__icon {
+    @include center;
+    scale: 0.3;
   }
 
   &__background {
