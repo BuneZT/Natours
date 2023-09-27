@@ -1,12 +1,31 @@
 @import "../abstracts/variables";
+@import "../abstracts/mixins";
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
+
+  @include response(desktop) {
+    font-size: 75%;
+  }
+  @include response(tab-land) {
+    font-size: 56.25%;
+  }
+  @include response(tab-port) {
+    font-size: 50%;
+  }
+  @include response(phone) {
+    font-size: 50%;
+  }
+
+}
+
+body {
+  box-sizing: border-box;
+
 }
 
